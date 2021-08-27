@@ -1,8 +1,16 @@
 import React from 'react';
 
+// Components
+import Card from './Card';
+
 function App() {
   return(
-    <h1>App test</h1>
+    <Card 
+      name="Keith"
+      address="123 Main St"
+      email="something@email.com"
+      phone="970-456-1237"
+    />
   );
 };
 
